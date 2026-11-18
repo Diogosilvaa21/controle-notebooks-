@@ -1,0 +1,245 @@
+body {
+    background:
+        radial-gradient(circle at 15% 10%, rgba(59, 130, 246, 0.35), transparent 40%),
+        radial-gradient(circle at 85% 20%, rgba(139, 92, 246, 0.30), transparent 40%),
+        radial-gradient(circle at 50% 90%, rgba(6, 182, 212, 0.25), transparent 45%),
+        #f4f7fc;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+/* fundo do modo escuro (ajuste o seletor igual ao de cima) */
+[data-bs-theme="dark"] body,
+body.dark-mode,
+body.dark {
+    background:
+        radial-gradient(circle at 15% 10%, rgba(59, 130, 246, 0.30), transparent 40%),
+        radial-gradient(circle at 85% 20%, rgba(139, 92, 246, 0.28), transparent 40%),
+        radial-gradient(circle at 50% 90%, rgba(6, 182, 212, 0.20), transparent 45%),
+        #0b1120;
+    background-attachment: fixed;
+}
+
+.hero{
+    background:linear-gradient(135deg,#2563eb,#1d4ed8);
+    color:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+}
+
+.card{
+    border:none !important;
+    border-radius:20px;
+    transition:.3s;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 30px rgba(0,0,0,.15);
+}
+
+.card-body h5{
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+.card-body h2{
+    font-size:3rem;
+    font-weight:bold;
+}
+
+.card-professores{
+    border-left:6px solid #3b82f6 !important;
+}
+
+.card-carrinhos{
+    border-left:6px solid #8b5cf6 !important;
+}
+
+.card-notebooks{
+    border-left:6px solid #06b6d4 !important;
+}
+
+.card-emprestados{
+    border-left:6px solid #ef4444 !important;
+}
+
+.card-disponiveis{
+    border-left:6px solid #22c55e !important;
+}
+
+.card-manutencao{
+    border-left:6px solid #f97316 !important;
+}
+
+.card-abertos{
+    border-left:6px solid #dc2626 !important;
+}
+
+.card-parciais{
+    border-left:6px solid #eab308 !important;
+}
+
+
+.card-link{
+    text-decoration:none;
+    color:inherit;
+    display:block;
+}
+
+.card-link:hover{
+    color:inherit;
+    text-decoration:none;
+}
+
+.card{
+    cursor:pointer;
+}
+
+.card:hover{
+    transform:translateY(-8px) scale(1.02);
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+.card-link{
+    text-decoration:none;
+    color:inherit;
+    display:block;
+}
+
+.card-link:hover{
+    text-decoration:none;
+    color:inherit;
+}
+
+.card{
+    cursor:pointer;
+}
+
+/* ============================================================
+   ETIQUETAS - TAMANHO PADRÃO
+   ============================================================ */
+
+.badge-padrao {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 140px;
+    min-height: 40px;
+
+    padding: 8px 12px;
+
+    border-radius: 8px;
+
+    font-weight: 600;
+    font-size: 15px;
+
+    text-align: center;
+}
+
+
+/* ============================================================
+   CORES DOS CARRINHOS
+   ============================================================ */
+
+.carrinho-amarelo {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.carrinho-azul {
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+.carrinho-verde {
+    background-color: #198754;
+    color: #fff;
+}
+
+.carrinho-vermelho {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.carrinho-laranja {
+    background-color: #fd7e14;
+    color: #fff;
+}
+
+.carrinho-roxo {
+    background-color: #6f42c1;
+    color: #fff;
+}
+
+.carrinho-rosa {
+    background-color: #d63384;
+    color: #fff;
+}
+
+.carrinho-cinza {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.carrinho-preto {
+    background-color: #212529;
+    color: #fff;
+}
+
+
+/* ============================================================
+   STATUS
+   ============================================================ */
+
+.status-disponivel {
+    background-color: #198754;
+    color: #fff;
+}
+
+.status-manutencao {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.status-chamado {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.status-emprestado {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+
+/* ============================================================
+   OBSERVAÇÃO
+   ============================================================ */
+
+.observacao-vazia {
+    color: #999;
+    font-style: italic;
+}
+.etiqueta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 145px;
+    height: 42px;
+
+    padding: 6px 10px;
+
+    border-radius: 8px;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    white-space: nowrap;
+
+    box-sizing: border-box;
+}
+

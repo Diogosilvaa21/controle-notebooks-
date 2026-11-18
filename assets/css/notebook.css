@@ -1,0 +1,70 @@
+body{
+    background:#f4f7fc;
+}
+
+/* Cards */
+.card{
+    border:none;
+    border-radius:15px;
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+}
+
+/* Título */
+h2{
+    font-weight:700;
+    color:#000000;
+}
+
+/* Campo de pesquisa */
+.form-control{
+    border-radius:10px;
+    border:1px solid #dcdcdc;
+}
+
+.form-control:focus{
+    border-color:#2563eb;
+    box-shadow:0 0 0 .2rem rgba(37,99,235,.15);
+}
+
+/* Botões */
+.btn{
+    border-radius:10px;
+}
+
+.btn-primary{
+    background:#2563eb;
+    border-color:#2563eb;
+}
+
+.btn-primary:hover{
+    background:#1d4ed8;
+    border-color:#1d4ed8;
+}
+
+/* Tabela */
+.table{
+    margin-bottom:0;
+}
+
+.table thead th{
+    background:#2563eb;
+    color:#fff;
+    border:none;
+    padding:15px;
+}
+
+.table tbody td{
+    vertical-align:middle;
+    padding:15px;
+}
+
+.table-hover tbody tr:hover{
+    background:#eef5ff;
+}
+
+/* Badges */
+.badge{
+    font-size:13px;
+    padding:7px 12px;
+    border-radius:20px;
+}
